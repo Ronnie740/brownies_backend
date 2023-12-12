@@ -63,7 +63,7 @@ async function sendContactFormEmail(req, res) {
 	const mailOptions = {
 		from: email,
 		// to: 'recipient@example.com', // Replace with the recipient's email
-		to: 'peyivix781@lanxi8.com', // Replace with the recipient's email
+		to: 'nelson@wezaprosoft.com', // Replace with the recipient's email
 		subject: subject,
 		text: `Name: ${name}\nCompany: ${company}\nEmail: ${email}\nPhone Number: ${phone}\nMessage: ${message}`,
 	};
